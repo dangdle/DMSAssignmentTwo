@@ -11,10 +11,11 @@ import java.util.List;
  */
 public class Server {
 
-    public SignUp signUp(String username, String password) {
+    public SignUp signUp(String username, String password, String ph) {
         List<NameValuePair> pairs = new LinkedList<>();
         pairs.add(new BasicNameValuePair("username", username));
         pairs.add(new BasicNameValuePair("password", password));
+        pairs.add(new BasicNameValuePair("phone", ph));
         String s = WebUtil.start().post().setUrl("http://dangdle.com/dmssignup.php").setEntity(pairs).addHeaders(pairs).finishUnzipped();
         if("success".equals(s)){
             return SignUp.SUCCESS;
