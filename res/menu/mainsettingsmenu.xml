@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/file"
+          android:title="item1"
+            android:onClick="clickedItem1">
+        <!-- "file" submenu -->
+        <!--<menu>-->
+            <!--<item android:id="@+id/create_new"-->
+                  <!--android:title="item2" />-->
+            <!--<item android:id="@+id/open"-->
+                  <!--android:title="item3" />-->
+        <!--</menu>-->
+
+    </item>
+</menu>
