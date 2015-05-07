@@ -39,38 +39,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="friendlist.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/friendlist.xml">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.0555556">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39697543">
-              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+              <folding>
+                <element signature="e#296#314#0" expanded="true" />
+                <element signature="e#430#448#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,242 +75,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Activity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/eclipse stuff/android-sdk-macosx/sources/android-21/android/app/Activity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3973" column="16" selection-start-line="3973" selection-start-column="16" selection-end-line="3973" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#260237#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#36141#36142#0" expanded="false" />
-                <element signature="e#36202#36203#0" expanded="false" />
-                <element signature="e#36963#36978#0" expanded="false" />
-                <element signature="e#38000#38001#0" expanded="false" />
-                <element signature="e#38030#38031#0" expanded="false" />
-                <element signature="e#38417#38418#0" expanded="false" />
-                <element signature="e#38452#38453#0" expanded="false" />
-                <element signature="e#38560#38561#0" expanded="false" />
-                <element signature="e#38595#38596#0" expanded="false" />
-                <element signature="e#38698#38699#0" expanded="false" />
-                <element signature="e#38736#38737#0" expanded="false" />
-                <element signature="e#38850#38851#0" expanded="false" />
-                <element signature="e#38880#38881#0" expanded="false" />
-                <element signature="e#38994#38995#0" expanded="false" />
-                <element signature="e#39031#39032#0" expanded="false" />
-                <element signature="e#39379#39380#0" expanded="false" />
-                <element signature="e#39409#39410#0" expanded="false" />
-                <element signature="e#40668#40669#0" expanded="false" />
-                <element signature="e#40741#40742#0" expanded="false" />
-                <element signature="e#49531#49532#0" expanded="false" />
-                <element signature="e#49583#49584#0" expanded="false" />
-                <element signature="e#49643#49644#0" expanded="false" />
-                <element signature="e#49700#49701#0" expanded="false" />
-                <element signature="e#53256#53257#0" expanded="false" />
-                <element signature="e#53286#53287#0" expanded="false" />
-                <element signature="e#55436#55437#0" expanded="false" />
-                <element signature="e#55483#55484#0" expanded="false" />
-                <element signature="e#55699#55700#0" expanded="false" />
-                <element signature="e#55738#55739#0" expanded="false" />
-                <element signature="e#67164#67165#0" expanded="false" />
-                <element signature="e#67192#67193#0" expanded="false" />
-                <element signature="e#67972#67973#0" expanded="false" />
-                <element signature="e#67999#68000#0" expanded="false" />
-                <element signature="e#75727#75728#0" expanded="false" />
-                <element signature="e#75768#75769#0" expanded="false" />
-                <element signature="e#80051#80052#0" expanded="false" />
-                <element signature="e#80078#80079#0" expanded="false" />
-                <element signature="e#81776#81777#0" expanded="false" />
-                <element signature="e#81803#81804#0" expanded="false" />
-                <element signature="e#83854#83855#0" expanded="false" />
-                <element signature="e#83887#83888#0" expanded="false" />
-                <element signature="e#91283#91284#0" expanded="false" />
-                <element signature="e#91334#91335#0" expanded="false" />
-                <element signature="e#96794#96795#0" expanded="false" />
-                <element signature="e#96851#96852#0" expanded="false" />
-                <element signature="e#97156#97157#0" expanded="false" />
-                <element signature="e#97208#97209#0" expanded="false" />
-                <element signature="e#97560#97561#0" expanded="false" />
-                <element signature="e#97612#97613#0" expanded="false" />
-                <element signature="e#97782#97783#0" expanded="false" />
-                <element signature="e#97836#97837#0" expanded="false" />
-                <element signature="e#105557#105558#0" expanded="false" />
-                <element signature="e#105585#105586#0" expanded="false" />
-                <element signature="e#106960#106961#0" expanded="false" />
-                <element signature="e#106988#106989#0" expanded="false" />
-                <element signature="e#108012#108013#0" expanded="false" />
-                <element signature="e#108040#108041#0" expanded="false" />
-                <element signature="e#109490#109491#0" expanded="false" />
-                <element signature="e#109518#109519#0" expanded="false" />
-                <element signature="e#110748#110749#0" expanded="false" />
-                <element signature="e#110776#110777#0" expanded="false" />
-                <element signature="e#115258#115259#0" expanded="false" />
-                <element signature="e#115282#115283#0" expanded="false" />
-                <element signature="e#119787#119788#0" expanded="false" />
-                <element signature="e#119814#119815#0" expanded="false" />
-                <element signature="e#131688#131689#0" expanded="false" />
-                <element signature="e#131725#131726#0" expanded="false" />
-                <element signature="e#132829#132830#0" expanded="false" />
-                <element signature="e#132873#132874#0" expanded="false" />
-                <element signature="e#134525#134526#0" expanded="false" />
-                <element signature="e#134589#134590#0" expanded="false" />
-                <element signature="e#135814#135815#0" expanded="false" />
-                <element signature="e#135871#135872#0" expanded="false" />
-                <element signature="e#136207#136208#0" expanded="false" />
-                <element signature="e#136264#136265#0" expanded="false" />
-                <element signature="e#136566#136567#0" expanded="false" />
-                <element signature="e#136604#136605#0" expanded="false" />
-                <element signature="e#136740#136741#0" expanded="false" />
-                <element signature="e#136803#136804#0" expanded="false" />
-                <element signature="e#138400#138401#0" expanded="false" />
-                <element signature="e#138427#138428#0" expanded="false" />
-                <element signature="e#140129#140130#0" expanded="false" />
-                <element signature="e#140170#140171#0" expanded="false" />
-                <element signature="e#140364#140365#0" expanded="false" />
-                <element signature="e#140409#140410#0" expanded="false" />
-                <element signature="e#141622#141623#0" expanded="false" />
-                <element signature="e#141665#141666#0" expanded="false" />
-                <element signature="e#142119#142120#0" expanded="false" />
-                <element signature="e#142155#142156#0" expanded="false" />
-                <element signature="e#151843#151844#0" expanded="false" />
-                <element signature="e#151889#151890#0" expanded="false" />
-                <element signature="e#152394#152395#0" expanded="false" />
-                <element signature="e#152454#152455#0" expanded="false" />
-                <element signature="e#153631#153632#0" expanded="false" />
-                <element signature="e#153685#153686#0" expanded="false" />
-                <element signature="e#161594#161595#0" expanded="false" />
-                <element signature="e#161649#161650#0" expanded="false" />
-                <element signature="e#170793#170794#0" expanded="false" />
-                <element signature="e#170839#170840#0" expanded="false" />
-                <element signature="e#179451#179452#0" expanded="false" />
-                <element signature="e#179513#179514#0" expanded="false" />
-                <element signature="e#193306#193307#0" expanded="false" />
-                <element signature="e#193338#193339#0" expanded="false" />
-                <element signature="e#193517#193518#0" expanded="false" />
-                <element signature="e#193550#193551#0" expanded="false" />
-                <element signature="e#194114#194115#0" expanded="false" />
-                <element signature="e#194160#194161#0" expanded="false" />
-                <element signature="e#196059#196060#0" expanded="false" />
-                <element signature="e#196088#196089#0" expanded="false" />
-                <element signature="e#197808#197809#0" expanded="false" />
-                <element signature="e#197832#197833#0" expanded="false" />
-                <element signature="e#200003#200004#0" expanded="false" />
-                <element signature="e#200031#200032#0" expanded="false" />
-                <element signature="e#209802#209803#0" expanded="false" />
-                <element signature="e#209835#209836#0" expanded="false" />
-                <element signature="e#210558#210559#0" expanded="false" />
-                <element signature="e#210628#210629#0" expanded="false" />
-                <element signature="e#212070#212071#0" expanded="false" />
-                <element signature="e#212112#212113#0" expanded="false" />
-                <element signature="e#212704#212705#0" expanded="false" />
-                <element signature="e#212733#212734#0" expanded="false" />
-                <element signature="e#212773#212774#0" expanded="false" />
-                <element signature="e#212807#212808#0" expanded="false" />
-                <element signature="e#218862#218863#0" expanded="false" />
-                <element signature="e#218924#218925#0" expanded="false" />
-                <element signature="e#219273#219274#0" expanded="false" />
-                <element signature="e#219332#219333#0" expanded="false" />
-                <element signature="e#220343#220344#0" expanded="false" />
-                <element signature="e#220401#220402#0" expanded="false" />
-                <element signature="e#220741#220742#0" expanded="false" />
-                <element signature="e#220796#220797#0" expanded="false" />
-                <element signature="e#221939#221940#0" expanded="false" />
-                <element signature="e#221966#221967#0" expanded="false" />
-                <element signature="e#234146#234147#0" expanded="false" />
-                <element signature="e#234176#234177#0" expanded="false" />
-                <element signature="e#243153#243154#0" expanded="false" />
-                <element signature="e#243198#243199#0" expanded="false" />
-                <element signature="e#247227#247228#0" expanded="false" />
-                <element signature="e#247293#247294#0" expanded="false" />
-                <element signature="e#247586#247587#0" expanded="false" />
-                <element signature="e#247658#247659#0" expanded="false" />
-                <element signature="e#247762#247763#0" expanded="false" />
-                <element signature="e#247794#247795#0" expanded="false" />
-                <element signature="e#250035#250036#0" expanded="false" />
-                <element signature="e#250111#250112#0" expanded="false" />
-                <element signature="e#256753#256754#0" expanded="false" />
-                <element signature="e#256784#256785#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Location.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/eclipse stuff/android-sdk-macosx/sources/android-21/android/location/Location.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="406" column="23" selection-start-line="406" selection-start-column="23" selection-end-line="406" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#32037#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#4096#4097#0" expanded="false" />
-                <element signature="e#4132#4133#0" expanded="false" />
-                <element signature="e#4259#4260#0" expanded="false" />
-                <element signature="e#4281#4282#0" expanded="false" />
-                <element signature="e#17324#17325#0" expanded="false" />
-                <element signature="e#17356#17357#0" expanded="false" />
-                <element signature="e#17482#17483#0" expanded="false" />
-                <element signature="e#17518#17519#0" expanded="false" />
-                <element signature="e#18344#18345#0" expanded="false" />
-                <element signature="e#18372#18373#0" expanded="false" />
-                <element signature="e#18595#18596#0" expanded="false" />
-                <element signature="e#18623#18624#0" expanded="false" />
-                <element signature="e#19355#19356#0" expanded="false" />
-                <element signature="e#19399#19400#0" expanded="false" />
-                <element signature="e#19628#19629#0" expanded="false" />
-                <element signature="e#19672#19673#0" expanded="false" />
-                <element signature="e#19867#19868#0" expanded="false" />
-                <element signature="e#19899#19900#0" expanded="false" />
-                <element signature="e#20000#20001#0" expanded="false" />
-                <element signature="e#20036#20037#0" expanded="false" />
-                <element signature="e#20234#20235#0" expanded="false" />
-                <element signature="e#20267#20268#0" expanded="false" />
-                <element signature="e#20371#20372#0" expanded="false" />
-                <element signature="e#20409#20410#0" expanded="false" />
-                <element signature="e#20507#20508#0" expanded="false" />
-                <element signature="e#20542#20543#0" expanded="false" />
-                <element signature="e#20768#20769#0" expanded="false" />
-                <element signature="e#20800#20801#0" expanded="false" />
-                <element signature="e#21456#21457#0" expanded="false" />
-                <element signature="e#21488#21489#0" expanded="false" />
-                <element signature="e#21684#21685#0" expanded="false" />
-                <element signature="e#21713#21714#0" expanded="false" />
-                <element signature="e#22315#22316#0" expanded="false" />
-                <element signature="e#22349#22350#0" expanded="false" />
-                <element signature="e#22731#22732#0" expanded="false" />
-                <element signature="e#22762#22763#0" expanded="false" />
-                <element signature="e#23752#23753#0" expanded="false" />
-                <element signature="e#23787#23788#0" expanded="false" />
-                <element signature="e#24871#24872#0" expanded="false" />
-                <element signature="e#24903#24904#0" expanded="false" />
-                <element signature="e#27321#27322#0" expanded="false" />
-                <element signature="e#27351#27352#0" expanded="false" />
-                <element signature="e#27498#27499#0" expanded="false" />
-                <element signature="e#27568#27569#0" expanded="false" />
-                <element signature="e#28617#28618#0" expanded="false" />
-                <element signature="e#28664#28665#0" expanded="false" />
-                <element signature="e#29665#29666#0" expanded="false" />
-                <element signature="e#29714#29715#0" expanded="false" />
-                <element signature="e#29772#29773#0" expanded="false" />
-                <element signature="e#29796#29797#0" expanded="false" />
-                <element signature="e#31647#31648#0" expanded="false" />
-                <element signature="e#31689#31690#0" expanded="false" />
-                <element signature="e#31977#31978#0" expanded="false" />
-                <element signature="e#32033#32034#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="mainwindow.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/mainwindow.xml">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.7777777">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
         </entry>
@@ -329,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/src/nz/ac/aut/DMS/Hangouts/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -337,34 +100,74 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nz/ac/aut/DMS/Hangouts/WebInterface.java">
+      <file leaf-file-name="friendsActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nz/ac/aut/DMS/Hangouts/friendsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+              <caret line="41" column="86" selection-start-line="41" selection-start-column="86" selection-end-line="41" selection-end-column="86" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1097#1105#0" expanded="true" />
+                <element signature="e#1256#1264#0" expanded="true" />
+                <element signature="e#1525#1993#0" expanded="true" />
+                <element signature="e#1992#1993#0" expanded="true" />
+                <element signature="e#2125#2142#0" expanded="true" />
+                <element signature="e#2677#2678#0" expanded="true" />
+                <element signature="e#2712#2713#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nz/ac/aut/DMS/Hangouts/Server.java">
+      <file leaf-file-name="messenger.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/messenger.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+            <state vertical-scroll-proportion="-4.7222223">
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/nz/ac/aut/DMS/Hangouts/MessageActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2.5803401">
+              <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
               <folding>
-                <element signature="e#1729#1730#0" expanded="false" />
-                <element signature="e#1767#1768#0" expanded="false" />
-                <element signature="e#1809#1810#0" expanded="false" />
-                <element signature="e#1845#1846#0" expanded="false" />
-                <element signature="e#2159#2160#0" expanded="false" />
-                <element signature="e#2197#2198#0" expanded="false" />
-                <element signature="e#2239#2240#0" expanded="false" />
-                <element signature="e#2275#2276#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1294#2590#0" expanded="true" />
+                <element signature="e#2589#2590#0" expanded="true" />
+                <element signature="e#2691#3316#0" expanded="true" />
+                <element signature="e#3315#3316#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/eclipse stuff/android-sdk-macosx/sources/android-21/android/widget/ArrayAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="139" column="11" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listlayout.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/listlayout.xml">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -393,10 +196,15 @@
         <option value="$PROJECT_DIR$/src/nz/ac/aut/DMS/Hangouts/WebInterface.java" />
         <option value="$PROJECT_DIR$/src/nz/ac/aut/DMS/Hangouts/WebUtil.java" />
         <option value="$PROJECT_DIR$/src/nz/ac/aut/DMS/Hangouts/Server.java" />
-        <option value="$PROJECT_DIR$/res/layout/mainwindow.xml" />
         <option value="$PROJECT_DIR$/src/nz/ac/aut/DMS/Hangouts/MyActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/mainwindow.xml" />
+        <option value="$PROJECT_DIR$/res/layout/listlayout.xml" />
+        <option value="$PROJECT_DIR$/res/layout/friendlist.xml" />
         <option value="$PROJECT_DIR$/src/nz/ac/aut/DMS/Hangouts/MainWindow.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/nz/ac/aut/DMS/Hangouts/friendsActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/messenger.xml" />
+        <option value="$PROJECT_DIR$/src/nz/ac/aut/DMS/Hangouts/MessageActivity.java" />
       </list>
     </option>
   </component>
@@ -889,16 +697,16 @@
       <workItem from="1430801571317" duration="533000" />
       <workItem from="1430866099449" duration="6068000" />
       <workItem from="1430974177778" duration="264000" />
-      <workItem from="1430975011013" duration="401000" />
+      <workItem from="1430975011013" duration="3370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11682000" />
+    <option name="totallyTimeSpent" value="14651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -908,6 +716,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -926,7 +735,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -952,22 +760,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
-          <folding />
+          <folding>
+            <element signature="e#296#314#0" expanded="true" />
+            <element signature="e#430#448#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1265,7 +1065,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
-          <folding />
+          <folding>
+            <element signature="e#296#314#0" expanded="true" />
+            <element signature="e#430#448#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1591,7 +1394,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="86" selection-start-line="6" selection-start-column="86" selection-end-line="6" selection-end-column="86" />
-          <folding />
+          <folding>
+            <element signature="e#296#314#0" expanded="true" />
+            <element signature="e#430#448#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1935,28 +1741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/mainwindow.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nz/ac/aut/DMS/Hangouts/Server.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1974,7 +1758,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/friendlist.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/mainwindow.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7777777">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/eclipse stuff/android-sdk-macosx/sources/android-21/android/widget/ArrayAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="139" column="11" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/listlayout.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1982,6 +1796,17 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/friendlist.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0555556">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
@@ -1993,21 +1818,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="e#296#314#0" expanded="true" />
+            <element signature="e#430#448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/nz/ac/aut/DMS/Hangouts/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/nz/ac/aut/DMS/Hangouts/friendsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39697543">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="86" selection-start-line="41" selection-start-column="86" selection-end-line="41" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1097#1105#0" expanded="true" />
+            <element signature="e#1256#1264#0" expanded="true" />
+            <element signature="e#1525#1993#0" expanded="true" />
+            <element signature="e#1992#1993#0" expanded="true" />
+            <element signature="e#2125#2142#0" expanded="true" />
+            <element signature="e#2677#2678#0" expanded="true" />
+            <element signature="e#2712#2713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/messenger.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.7222223">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nz/ac/aut/DMS/Hangouts/MessageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.5803401">
+          <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1294#2590#0" expanded="true" />
+            <element signature="e#2589#2590#0" expanded="true" />
+            <element signature="e#2691#3316#0" expanded="true" />
+            <element signature="e#3315#3316#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
