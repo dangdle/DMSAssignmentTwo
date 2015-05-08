@@ -67,4 +67,15 @@ public class User {
                 ", date='" + date + '\'' +
                 '}';
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if(o instanceof User)
+            if(username.equals(((User)o).getUsername())) return true;
+        if(o instanceof String){
+            if(o.toString().equals(getUsername())) return true;
+        }
+
+        return super.equals(o);
+    }
 }

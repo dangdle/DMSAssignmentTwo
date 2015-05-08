@@ -14,6 +14,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/textrounded"
             android:textSize="30dp"
+            android:editable="false"
             android:id="@+id/editText4" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
             android:text="Nearby People"/>
 </RelativeLayout>

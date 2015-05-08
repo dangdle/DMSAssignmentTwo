@@ -56,7 +56,7 @@ public enum Server {;
                 setUsername(split1[0]);
                 setLng(split1[1]);
                 setLat(split1[2]);
-                setDate(split1[3]);
+//                setDate(split1[3]);
                 //only 1 column/row, so just remove all td/tr's
                 setPhone(s1.replaceAll("(<td>)|(</td>)|(<tr>)|(</tr>)", ""));
             }});
