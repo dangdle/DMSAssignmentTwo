@@ -115,6 +115,7 @@ public enum Server {;
         return Integer.valueOf(s1.replaceAll("(<td>)|(</td>)|(<tr>)|(</tr>)", ""));
     }
 
+
     public static List<User> getFriendsList(String username){
         List<NameValuePair> pairs = new LinkedList<>();
         int id = getId(username);

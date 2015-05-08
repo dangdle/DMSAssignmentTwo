@@ -80,24 +80,29 @@ public class MyActivity extends Activity {
 
     }
 
-    public void signup(View view) {
-        SignUp signUp = Server.signUp(getUsername(), getPassword(), getPhoneNumber());
-        toast(signUp.getToast());
-        if(signUp.equals(SignUp.SUCCESS)){
-            startActivity(new Intent(this, MainWindow.class));
-        }
-        List<User> gi = Server.getFriendsList("gi");
-        System.out.println(gi);
-    }
+
 
     public void login(View view) {
         SignIn signIn = Server.signIn(getUsername(), getPassword());
         toast(signIn.getToast());
         if(signIn.equals(SignIn.SUCCESS)){
-            startActivity(new Intent(this, MainWindow.class));
+            Intent intent = new Intent(this, MainWindow.class);
+            intent.putExtra("name", getUsername());
+            startActivity(intent);
         }
 
     }
+
+    public void signup(View view) {
+        SignUp signUp = Server.signUp(getUsername(), getPassword(), getPhoneNumber());
+        toast(signUp.getToast());
+        if(signUp.equals(SignUp.SUCCESS)){
+            Intent intent = new Intent(this, MainWindow.class);
+            intent.putExtra("name", getUsername());
+            startActivity(intent);
+        }
+    }
+
 
     private String getUsername(){
         return ((EditText)findViewById(R.id.usernameinput)).getText().toString();
@@ -105,6 +110,10 @@ public class MyActivity extends Activity {
 
     private String getPassword(){
         return ((EditText)findViewById(R.id.passwordinput)).getText().toString();
+    }
+
+    public String getPhoneNumber() {
+        return "";
     }
 
     public void toast(CharSequence string){
@@ -123,7 +132,4 @@ public class MyActivity extends Activity {
         toast("Cliiiiick");
     }
 
-    public String getPhoneNumber() {
-        return "";
-    }
 }

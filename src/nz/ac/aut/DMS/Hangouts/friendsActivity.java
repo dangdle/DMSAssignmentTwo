@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import nz.ac.aut.DMS.Hangouts.ServerStuff.Server;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -17,19 +18,24 @@ import java.util.List;
  * Created by Ashellan Edmonds on 7/05/15.
  */
 public class friendsActivity extends Activity {
+    private String username;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.friendlist);
-        String[] values = new String[] { "Android", "iPhone", "WindowsMobile",
-                "Blackberry", "WebOS", "Ubuntu", "Windows7", "Max OS X",
-                "Linux", "OS/2", "Ubuntu", "Windows7", "Max OS X", "Linux",
-                "OS/2", "Ubuntu", "Windows7", "Max OS X", "Linux", "OS/2",
-                "Android", "iPhone", "WindowsMobile" };
+
+        username = getIntent().getExtras().getString("name");
+        List<User> friendsList = Server.getFriendsList(username);
+        String[] friendsValues = new String[friendsList.size()];
+        for (int i = 0; i <friendsList.size(); i++) {
+            friendsValues[i] = friendsList.get(i).getUsername();
+        }
+
         ListView viewById = (ListView) findViewById(R.id.listview);
         final ArrayList<String> list = new ArrayList<String>();
-        for (int i = 0; i < values.length; ++i) {
-            list.add(values[i]);
+        for (int i = 0; i < friendsValues.length; ++i) {
+            list.add(friendsValues[i]);
         }
         ArrayAdapter<String> string = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list);
         final StableArrayAdapter adapter = new StableArrayAdapter(this,

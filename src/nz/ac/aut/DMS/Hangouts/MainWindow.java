@@ -9,14 +9,17 @@ import android.view.View;
  * Created by Ashellan Edmonds on 7/05/15.
  */
 public class MainWindow extends Activity {
+
+    private String username;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainwindow);
-
+        username = getIntent().getExtras().getString("name");
     }
     public void listview(View view) {
-        startActivity(new Intent(this, friendsActivity.class));
-
+        Intent intent = new Intent(this, friendsActivity.class);
+        intent.putExtra("name", username);
+        startActivity(intent);
     }
 }
