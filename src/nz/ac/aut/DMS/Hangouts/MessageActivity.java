@@ -11,22 +11,47 @@ import android.telephony.SmsManager;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+import nz.ac.aut.DMS.Hangouts.ServerStuff.Server;
+
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Created by Ashellan Edmonds on 7/05/15.
  */
 public class MessageActivity extends Activity {
+    private String name;
+    private Lock lock;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         String name = getIntent().getExtras().getString("Name");
         setContentView(R.layout.messenger);
         EditText text = (EditText) findViewById(R.id.editText2);
-
         text.setText(name);
+        this.name = name;
+        lock = new ReentrantLock();
     }
 
     public void sendMessage(View view) {
+        if (lock.tryLock())
+        {
+            try
+            {
+                for(User user : Server.getHangoutUsers()){
+                    if(user.getUsername().equals(name)){
+                        sendSMS(user.getPhone(), ((EditText) findViewById(R.id.editText2)).getText().toString());
+                    }
+                }
+            }
+            finally
+            {
+                lock.unlock();
+            }
+        }
+        else
+        {
+        }
 
     }
 

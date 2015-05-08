@@ -46,6 +46,7 @@ public class friendsActivity extends Activity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 System.out.println(parent.getItemAtPosition(position));
                 Intent intent = new Intent(friendsActivity.this, MessageActivity.class);
+                intent.putExtra("name", username);
                 intent.putExtra("Name", parent.getItemAtPosition(position).toString());
                 startActivity(intent);
             }
