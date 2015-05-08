@@ -52,7 +52,6 @@ public class MessageActivity extends Activity {
         else
         {
         }
-
     }
 
     private void sendSMS(String phoneNumber, String message) {

@@ -55,7 +55,7 @@ public class MyActivity extends Activity {
 
 
     private String getUsername(){
-        return ((EditText)findViewById(R.id.usernameinput)).getText().toString();
+        return ((EditText)findViewById(R.id.username_input)).getText().toString();
     }
 
     private String getPassword(){
@@ -63,7 +63,7 @@ public class MyActivity extends Activity {
     }
 
     public String getPhoneNumber() {
-        return "";
+        return ((EditText)findViewById(R.id.phoneNumber)).getText().toString();
     }
 
     public void toast(CharSequence string){

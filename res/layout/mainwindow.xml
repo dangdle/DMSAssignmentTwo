@@ -1,22 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
-              android:layout_height="match_parent" android:orientation="vertical">
+              android:layout_height="match_parent" android:orientation="horizontal" android:weightSum="1">
 
-    <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button3" android:layout_gravity="right"
-            android:onClick="listview"/>
-    <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button4" android:layout_gravity="center_horizontal" android:layout_marginTop="150dp"/>
-    <EditText
+    <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/editText" android:layout_gravity="center_horizontal" android:background="#ffc7bdc6"
-            android:layout_marginTop="50dp" android:text="Hello world" android:textColor="#ff1cc708"/>
+            android:layout_height="556dp">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Friends List"
+                android:id="@+id/button3" android:layout_gravity="right"
+                android:onClick="listview"
+                android:layout_above="@+id/imageView3" android:layout_alignParentRight="true"
+                android:layout_marginBottom="58dp"/>
+        <EditText
+                android:layout_width="254dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText" android:layout_gravity="center_horizontal" android:background="#ffc7bdc6"
+                android:text="Hello world" android:textColor="#ff1cc708"
+                android:layout_alignBaseline="@+id/button4" android:layout_alignBottom="@+id/button4"
+                android:layout_alignParentLeft="true"/>
+        <Button
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:text="Hangouts"
+                android:id="@+id/button4"
+                android:layout_above="@+id/imageView3" android:layout_alignLeft="@+id/button3"/>
+        <ImageView
+                android:layout_width="197dp"
+                android:layout_height="215dp"
+                android:src="@drawable/an"
+                android:id="@+id/imageView3" android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="39dp"
+                android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/welcome"
+                android:id="@+id/imageView4"
+                android:layout_marginBottom="104dp" android:layout_above="@+id/imageView3"
+                android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
 </LinearLayout>
