@@ -9,7 +9,10 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.telephony.SmsManager;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 import nz.ac.aut.DMS.Hangouts.ServerStuff.Server;
 
@@ -22,15 +25,35 @@ import java.util.concurrent.locks.ReentrantLock;
 public class MessageActivity extends Activity {
     private String name;
     private Lock lock;
+    private String curName;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String name = getIntent().getExtras().getString("Name");
+        final String name = getIntent().getExtras().getString("Name");
         setContentView(R.layout.messenger);
         EditText text = (EditText) findViewById(R.id.editText2);
         text.setText(name);
         this.name = name;
         lock = new ReentrantLock();
+        if(getIntent().getExtras().containsKey("name")){
+            this.curName = getIntent().getExtras().getString("name");
+            LinearLayout viewById = (LinearLayout) findViewById(R.id.layout);
+            Button buyButton = new Button(this);
+            buyButton.setText("befriend");
+            buyButton.setLayoutParams(new ViewGroup.LayoutParams(
+                    ViewGroup.LayoutParams.WRAP_CONTENT,
+                    ViewGroup.LayoutParams.WRAP_CONTENT));
+            buyButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Server.addFriend(curName, name);
+                }
+            });
+            viewById.addView(buyButton);
+
+
+        }
     }
 
     public void sendMessage(View view) {
