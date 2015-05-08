@@ -1,10 +1,12 @@
 package nz.ac.aut.DMS.Hangouts.ServerStuff;
 
+import android.util.Log;
 import nz.ac.aut.DMS.Hangouts.User;
 import nz.ac.aut.DMS.Hangouts.WebUtil;
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -54,6 +56,7 @@ public enum Server {;
                 //query database for user ph number, inefficient but works
                 pairs.add(new BasicNameValuePair("query", "SELECT ph FROM MyGuests WHERE username='" + split1[0]+"'"));
                 String s1 = getFromSql(pairs);
+                Log.d("test", Arrays.toString(split1));
                 setUsername(split1[0]);
                 setLng(split1[1]);
                 setLat(split1[2]);
