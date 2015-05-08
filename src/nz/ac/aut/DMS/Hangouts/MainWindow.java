@@ -36,7 +36,7 @@ public class MainWindow extends Activity {
             return;
         }
         ServerHangoutResponse hangout = Server.Hangout(username, String.valueOf(location.getLongitude()), String.valueOf(location.getLatitude()), new Date().toString());
-        if(hangout.equals(ServerHangoutResponse.SUCCESS)){
+        if(hangout != null && hangout.equals(ServerHangoutResponse.SUCCESS)){
 
         }
 
