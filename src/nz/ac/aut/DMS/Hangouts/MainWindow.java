@@ -37,7 +37,9 @@ public class MainWindow extends Activity {
         }
         ServerHangoutResponse hangout = Server.Hangout(username, String.valueOf(location.getLongitude()), String.valueOf(location.getLatitude()), new Date().toString());
         if(hangout != null && hangout.equals(ServerHangoutResponse.SUCCESS)){
-
+            Intent intent = new Intent(this, SearchNearByActivity.class);
+            intent.putExtra("name", username);
+            startActivity(intent);
         }
 
     }
