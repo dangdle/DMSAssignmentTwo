@@ -16,6 +16,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+import nz.ac.aut.DMS.Hangouts.ServerStuff.Server;
+import nz.ac.aut.DMS.Hangouts.ServerStuff.SignIn;
+import nz.ac.aut.DMS.Hangouts.ServerStuff.SignUp;
 
 import java.io.IOException;
 import java.util.List;
@@ -35,7 +38,6 @@ public class MyActivity extends Activity {
         setContentView(R.layout.main);
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
-        server = new Server();
         lm = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         lm.requestLocationUpdates(LocationManager.GPS_PROVIDER,
                 1, 1000,
@@ -45,7 +47,7 @@ public class MyActivity extends Activity {
 //                        toast(String.format("Latitude: %s  Longitude %s", location.getLatitude(), location.getLongitude()));
                         try {
                             List<Address> fromLocation = geocoder.getFromLocation(location.getLatitude(), location.getLongitude(), 1);
-                            if (geocoder.isPresent()) {
+                            if (Geocoder.isPresent()) {
                                 address = fromLocation.get(0);
                                 //        if(address != null)
 //        toast(address.toString());
@@ -79,17 +81,17 @@ public class MyActivity extends Activity {
     }
 
     public void signup(View view) {
-        Server.SignUp signUp = server.signUp(getUsername(), getPassword());
+        SignUp signUp = Server.signUp(getUsername(), getPassword(), getPhoneNumber());
         toast(signUp.getToast());
-        if(signUp.equals(Server.SignUp.SUCCESS)){
+        if(signUp.equals(SignUp.SUCCESS)){
             startActivity(new Intent(this, MainWindow.class));
         }
     }
 
     public void login(View view) {
-        Server.SignIn signIn = server.signIn(getUsername(), getPassword());
+        SignIn signIn = Server.signIn(getUsername(), getPassword());
         toast(signIn.getToast());
-        if(signIn.equals(Server.SignIn.SUCCESS)){
+        if(signIn.equals(SignIn.SUCCESS)){
             startActivity(new Intent(this, MainWindow.class));
         }
 
@@ -117,5 +119,9 @@ public class MyActivity extends Activity {
 
     public void clickedItem1(MenuItem item) {
         toast("Cliiiiick");
+    }
+
+    public String getPhoneNumber() {
+        return "";
     }
 }
