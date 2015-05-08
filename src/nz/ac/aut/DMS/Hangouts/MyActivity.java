@@ -63,7 +63,9 @@ public class MyActivity extends Activity {
     }
 
     public String getPhoneNumber() {
-        return ((EditText)findViewById(R.id.phoneNumber)).getText().toString();
+        View viewById = findViewById(R.id.editText3);
+        EditText text = (EditText) viewById;
+        return text.getText().toString();
     }
 
     public void toast(CharSequence string){

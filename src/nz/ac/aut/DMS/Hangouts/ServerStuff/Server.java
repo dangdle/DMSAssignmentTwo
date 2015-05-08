@@ -133,16 +133,18 @@ public enum Server {;
 
         List<User> friends = new LinkedList<>();
         for(String friendid : friendsId) {
-            int friendsintid = Integer.valueOf(friendid);
-            pairs.add(new BasicNameValuePair("query", "SELECT * FROM MyGuests WHERE id='" + friendsintid + "'"));
-            String friendString = getFromSql(pairs);
-            String[] split = friendString.replaceAll("<tr>", "").split("</tr>");
-            final String friendName = split[0].replaceAll("<td>", "").split("</td>")[1];
-            final String ph = split[0].replaceAll("<td>", "").split("</td>")[3];
-            friends.add(new User() {{
-                setUsername(friendName);
-                setPhone(ph);
-            }});
+            try {
+                int friendsintid = Integer.valueOf(friendid);
+                pairs.add(new BasicNameValuePair("query", "SELECT * FROM MyGuests WHERE id='" + friendsintid + "'"));
+                String friendString = getFromSql(pairs);
+                String[] split = friendString.replaceAll("<tr>", "").split("</tr>");
+                final String friendName = split[0].replaceAll("<td>", "").split("</td>")[1];
+                final String ph = split[0].replaceAll("<td>", "").split("</td>")[3];
+                friends.add(new User() {{
+                    setUsername(friendName);
+                    setPhone(ph);
+                }});
+            }catch (Exception e){};
         }
         return friends;
     }

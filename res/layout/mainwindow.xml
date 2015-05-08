@@ -26,7 +26,8 @@
                 android:layout_height="wrap_content"
                 android:text="Hangouts"
                 android:id="@+id/button4"
-                android:layout_above="@+id/imageView3" android:layout_alignLeft="@+id/button3"/>
+                android:layout_above="@+id/imageView3" android:layout_alignLeft="@+id/button3"
+                android:onClick="hangouts"/>
         <ImageView
                 android:layout_width="197dp"
                 android:layout_height="215dp"

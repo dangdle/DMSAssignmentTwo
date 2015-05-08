@@ -4,6 +4,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import nz.ac.aut.DMS.Hangouts.ServerStuff.Server;
+
+import java.util.List;
 
 /**
  * Created by Ashellan Edmonds on 7/05/15.
@@ -21,5 +24,9 @@ public class MainWindow extends Activity {
         Intent intent = new Intent(this, friendsActivity.class);
         intent.putExtra("name", username);
         startActivity(intent);
+    }
+
+    public void hangouts(View view) {
+        List<User> hangoutUsers = Server.getHangoutUsers();
     }
 }
