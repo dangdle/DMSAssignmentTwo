@@ -86,7 +86,6 @@ public class MyActivity extends Activity {
         if(signUp.equals(SignUp.SUCCESS)){
             startActivity(new Intent(this, MainWindow.class));
         }
-        Server.addFriend("gi", "gihi");
         List<User> gi = Server.getFriendsList("gi");
         System.out.println(gi);
     }
