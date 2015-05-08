@@ -5,8 +5,16 @@
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="14"/>
     <application android:label="@string/app_name" android:icon="@drawable/hangoutsmain">
+
+        <uses-library android:name="com.google.android.maps" />
+
+        <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="API_KEY"/>
+
         <activity android:name="MyActivity"
                   android:label="@string/app_name">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
