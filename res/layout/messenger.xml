@@ -5,15 +5,15 @@
               android:layout_height="match_parent" android:weightSum="1">
 
     <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/editText2" android:layout_weight="0.69" android:background="#ffc7c3bf"
-            android:elegantTextHeight="false" android:editable="true" android:textColor="#ff000000"
-            android:enabled="true"/>
+            android:layout_width="323dp"
+            android:layout_height="51dp"
+            android:id="@+id/editText2" android:background="#ffc7c3bf"
+            android:elegantTextHeight="false" android:editable="true" android:textColor="@android:color/holo_green_dark"
+            android:enabled="true" android:text="Sups, Wanna to Hang out?" android:layout_gravity="center"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Message"
-            android:id="@+id/button5" android:layout_gravity="center_horizontal"
+            android:text="Send"
+            android:id="@+id/sendMessage" android:layout_gravity="center_horizontal"
             android:onClick="sendMessage"/>
 </LinearLayout>

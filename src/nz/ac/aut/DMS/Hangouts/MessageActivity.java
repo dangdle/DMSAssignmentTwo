@@ -27,7 +27,7 @@ public class MessageActivity extends Activity {
     }
 
     public void sendMessage(View view) {
-
+        sendSMS("0211260591","hello world");
     }
 
     private void sendSMS(String phoneNumber, String message) {
