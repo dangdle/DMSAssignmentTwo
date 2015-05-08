@@ -10,6 +10,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Friends List"
+                android:background="@drawable/textrounded"
                 android:id="@+id/button3" android:layout_gravity="right"
                 android:onClick="listview"
                 android:layout_above="@+id/imageView3" android:layout_alignParentRight="true"
@@ -25,6 +26,7 @@
                 android:layout_width="122dp"
                 android:layout_height="wrap_content"
                 android:text="Hangouts"
+                android:background="@drawable/textrounded"
                 android:id="@+id/button4"
                 android:layout_above="@+id/imageView3" android:layout_alignLeft="@+id/button3"
                 android:onClick="hangouts"/>
