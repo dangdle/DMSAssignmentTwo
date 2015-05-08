@@ -36,8 +36,12 @@ public class MainWindow extends Activity {
             return;
         }
         ServerHangoutResponse hangout = Server.Hangout(username, String.valueOf(location.getLongitude()), String.valueOf(location.getLatitude()), new Date().toString());
-        if(hangout.equals(ServerHangoutResponse.SUCCESS)){
-
+        if(hangout != null && hangout.equals(ServerHangoutResponse.SUCCESS)){
+            Intent intent = new Intent(this, SearchNearByActivity.class);
+            intent.putExtra("name", username);
+            startActivity(intent);
+        }else{
+            Toast.makeText(this, "Failed to show stuff", Toast.LENGTH_SHORT).show();
         }
 
     }

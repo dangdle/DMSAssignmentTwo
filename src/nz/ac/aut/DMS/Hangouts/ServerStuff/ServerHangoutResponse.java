@@ -1,5 +1,7 @@
 package nz.ac.aut.DMS.Hangouts.ServerStuff;
 
+import android.util.Log;
+
 /**
  * Created by Ashellan Edmonds on 8/05/15.
  */
@@ -18,6 +20,7 @@ public enum ServerHangoutResponse {
                 return response;
             }
         }
+        Log.d("my", string);
         return null;
     }
 }
