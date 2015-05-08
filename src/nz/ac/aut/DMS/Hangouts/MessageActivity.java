@@ -49,9 +49,6 @@ public class MessageActivity extends Activity {
                 lock.unlock();
             }
         }
-        else
-        {
-        }
     }
 
     private void sendSMS(String phoneNumber, String message) {

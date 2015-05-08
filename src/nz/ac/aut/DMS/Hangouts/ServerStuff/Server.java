@@ -22,6 +22,7 @@ public enum Server {;
         pairs.add(new BasicNameValuePair("lat", lat));
         pairs.add(new BasicNameValuePair("date", date));
         String s = getFromUrl(pairs, "dmshangout.php");
+
         return ServerHangoutResponse.get(s);
     }
 
@@ -41,7 +42,7 @@ public enum Server {;
     public static List<User> getHangoutUsers(){
         //gets list of all people in locations database
         String s = getFromUrl("dmsgethangouts.php");
-        //users are between <tr></tr>'s
+        //users are between <tr> </tr>'s
         final String[] split = s.replaceAll("<tr>", "").split("</tr>");
         List<User> list = new LinkedList<>();
         //for each user string
@@ -51,7 +52,7 @@ public enum Server {;
             list.add(new User() {{
                 List<NameValuePair> pairs = new LinkedList<>();
                 //query database for user ph number, inefficient but works
-                pairs.add(new BasicNameValuePair("query", "SELECT ph FROM MyGuests WHERE username='"+split1[0]+"'"));
+                pairs.add(new BasicNameValuePair("query", "SELECT ph FROM MyGuests WHERE username='" + split1[0]+"'"));
                 String s1 = getFromSql(pairs);
                 setUsername(split1[0]);
                 setLng(split1[1]);

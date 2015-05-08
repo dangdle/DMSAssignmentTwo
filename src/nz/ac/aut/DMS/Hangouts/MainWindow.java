@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.location.Location;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 import nz.ac.aut.DMS.Hangouts.ServerStuff.Server;
@@ -35,6 +36,7 @@ public class MainWindow extends Activity {
             Toast.makeText(this, "Location not found", Toast.LENGTH_SHORT).show();
             return;
         }
+        Log.d("my", location.getLongitude() + " " + location.getLatitude());
         ServerHangoutResponse hangout = Server.Hangout(username, String.valueOf(location.getLongitude()), String.valueOf(location.getLatitude()), new Date().toString());
         if(hangout != null && hangout.equals(ServerHangoutResponse.SUCCESS)){
             Intent intent = new Intent(this, SearchNearByActivity.class);
